@@ -1,0 +1,2 @@
+cmd : docker run -d --name=firefox -p 5800:5800 -v /docker/appdata/firefox:/config:rw jlesage/firefox
+ PORT : 5800
